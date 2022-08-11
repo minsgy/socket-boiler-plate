@@ -1,0 +1,17 @@
+{
+  "name": "chat-server",
+  "version": "1.0.0",
+  "description": "chatting app + graphQL",
+  "main": "index.js",
+  "author": "minsgy",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "dependencies": {
+    "apollo-server": "^3.10.1",
+    "convert-csv-to-json": "^1.3.3",
+    "graphql": "^16.5.0"
+  }
+}
